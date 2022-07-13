@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Frutas</title>
+    <link rel="shortcut icon" href="https://res.cloudinary.com/ddjjq1tyz/image/upload/v1657648048/JDaBid/frutas_bdk5sw.png">
+    
+    
+    
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-box">
+            <div class="logo">
+                <img class="img-logo" src="https://res.cloudinary.com/ddjjq1tyz/image/upload/v1657648048/JDaBid/frutas_bdk5sw.png">
+            </div>
+            <div class="title">
+                Fruticas
+            </div>
+        </div>
+    </header>
+
+    <section class="container">
+        <section class="container-box">
+
+            <section class="first-container">
+                <article class="article-one">
+
+                    <div class="first-line">
+
+                        <card class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Fresa 🍓</h5>
+                                <p class="price">$5.000 Kg</p>
+                                <button class="btn" type="submit" data-fruta="Fresa 🍓" data-precio="5000">Agregar</button>
+                            </div>
+                        </card>
+    
+                        <card class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Banano 🍌</h5>
+                                <p class="price">$1.600 Kg</p>
+                                <button class="btn" data-fruta="Banano 🍌" data-precio="1600">Agregar</button>
+                            </div>
+                        </card>
+
+                    </div>                    
+
+                    <div class="second-line">
+       
+                        <card class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Manzana 🍎</h5>
+                                <p class="price">$6.000 Kg</p>
+                                
+                                <button class="btn" data-fruta="Manzana 🍎" data-precio="6000">Agregar</button>
+                            </div>
+                        </card>
+    
+                        <card class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Uva 🍇</h5>
+                                <p class="price">$4.800 Kg</p>
+                                <button class="btn" data-fruta="Uva 🍇" data-precio="4800">Agregar</button>
+                            </div>
+                        </card>
+
+                    </div>
+                </article>
+
+                <article class="article-two">
+
+                    <div class="third-line">
+
+                        <card class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Cereza 🍒</h5>
+                                <p class="price">$9.000 Kg</p>
+                                <button class="btn" data-fruta="Cereza 🍒" data-precio="9000">Agregar</button>
+                            </div>
+                        </card>
+
+                        <card class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Piña 🍍</h5>
+                                <p class="price">$1.636 Kg</p>
+                                <button class="btn" data-fruta="Piña 🍍" data-precio="1636">Agregar</button>
+                            </div>
+                        </card>
+
+                    </div>
+
+                    <div class="forth-line">
+
+                        <card class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Pera 🍐</h5>
+                                <p class="price">$10.120 Kg</p>
+                                <button class="btn" data-fruta="Pera 🍐" data-precio="10120">Agregar</button>
+                            </div>
+                        </card>
+
+                        <card class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Kiwi 🥝</h5>
+                                <p class="price">$22.600 Kg</p>
+                                <button class="btn" data-fruta="Kiwi 🥝" data-precio="22600">Agregar</button>
+                            </div>
+                        </card>
+
+                    </div>
+
+                </article>
+
+                <section class="lists">
+                    <ul class="list-group-ul" id="carrito"></ul>
+                </section>
+
+                <section class="totalbox">
+
+                    <section id="total" class="total">
+                        <template class="template-total" id="template-total">
+                            <div class="total-container">
+                                <div class="total-body">
+                                    <p class="total-price">Total $</p>
+                                    <span class="total-invoice">1.500</span>
+                                </div>
+                            </div>
+                            <div class="btn-pago-container">
+                                <button class="btn-pago">Pagar</button>
+                            </div>
+                        </template>
+                    </section>
+
+
+                </section>
+
+                <template id="template">
+                    
+                    <li class="list-group">
+                        <div class="badge-container">
+                            <span class="badge">12</span>
+                        </div>  
+                        <div class="lead-container">
+                            <span class="lead">Fresa</span>
+                        </div>
+                        <div class="lead-container">
+                            <p class="lead">Subotal $ </p>
+                        </div>
+                        <div class="badge-subcontainter">
+                            <span class="badge-subtotal">$9.000</span>
+                        </div>
+                        <div class="ctrl-buttons">
+                            <button class="btn-add">Agregar</button>
+                        </div>  
+                        <div class="ctrl-buttons">
+                            <button class="btn-del">Eliminar</button>
+                        </div>                         
+                    </li>
+
+                    
+                </template>
+
+            </section>
+
+        </section>
+    </section>
+    
+    <script src="js/fruticas.js"></script>
+</body>
+</html>
